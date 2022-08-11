@@ -35,6 +35,7 @@ export const ListOfCategories = () => {
         <Item key={element.id}>
           <Category 
             {...element}
+            path={`/pet/${element.id}`}
           />
         </Item>
         )
