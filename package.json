@@ -1,10 +1,10 @@
 {
     "name": "curso-platzi-react-avanzado",
-    "description": "**¡Sígueme en Youtube para más contenido de React y Javascript!** 👉 https://www.youtube.com/midudev",
+    "description": "React Js",
     "version": "1.0.0",
     "main": "index.js",
     "scripts": {
-        "build:prod": "webpack --mode production",
+        "build": "webpack --mode production",
         "build:dev": "webpack --mode development",
         "dev": "webpack serve --open --history-api-fallback",
         "test": "echo \"Error: no test specified\" && exit 1",
