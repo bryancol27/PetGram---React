@@ -12,7 +12,10 @@ module.exports = {
     clean: true
   },
   resolve: {
-    extensions: ['.js', '.jsx']
+    extensions: ['.js', '.jsx'],
+    alias: {
+      '@hooks': path.resolve(__dirname, 'src/hooks')
+    }
   },
   mode: 'development',
   plugins: [

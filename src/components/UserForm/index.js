@@ -3,12 +3,12 @@ import React, { Fragment, useContext } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 //import custom hook
-import { useInputValue } from '../../hooks/UseInputValue';
+import { useInputValue } from '@hooks/UseInputValue';
 
 import { Form, Input, Button, Title, Error, Loading } from './styles'
 
 //custom hook send data
-import { useSendData } from '../../hooks/useSendData';
+import { useSendData } from '@hooks/useSendData';
 
 //import context for get a function to change the current token
 import { Context } from '../../context/Context'
